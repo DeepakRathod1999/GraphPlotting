@@ -1,0 +1,39 @@
+
+.bar-graph {
+  display: flex;
+  flex-direction: row; 
+  align-items: center; 
+  justify-content:center; 
+  border:1px 1px  black;
+  margin-left: 5px;
+  width:100%;
+  overflow-x: scroll;
+
+}
+
+.bar {
+  height: 100px; 
+  color: white; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  font-weight: bold; 
+  margin-bottom: 5px;
+ 
+}
+
+
+.bar.machine-status-0 {
+  background-color: yellow; 
+  color:yellow
+}
+
+.bar.machine-status-1 {
+  background-color: green; 
+  color: green;
+}
+
+.bar.machine-status-missing {
+  background-color: red;
+  color:red; 
+}
